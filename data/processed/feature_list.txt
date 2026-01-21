@@ -1,0 +1,31 @@
+recency
+frequency
+monetary
+customer_lifetime_days
+avg_days_between_orders
+avg_order_value
+min_order_value
+max_order_value
+std_order_value
+avg_installments
+payment_boleto
+payment_credit_card
+payment_debit_card
+payment_voucher
+avg_review_score
+min_review_score
+max_review_score
+unique_products_purchased
+avg_delivery_time
+max_delivery_time
+r_score
+f_score
+m_score
+segment_At Risk
+segment_Champions
+segment_Lost
+segment_Loyal Customers
+segment_Need Attention
+segment_Others
+segment_Potential Loyalists
+segment_Promising
