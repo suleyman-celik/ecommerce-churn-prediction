@@ -18,9 +18,6 @@ max_review_score
 unique_products_purchased
 avg_delivery_time
 max_delivery_time
-r_score
-f_score
-m_score
 segment_At Risk
 segment_Champions
 segment_Lost
@@ -29,3 +26,30 @@ segment_Need Attention
 segment_Others
 segment_Potential Loyalists
 segment_Promising
+top_category_x
+unique_categories_x
+weekend_order_ratio_x
+total_weekend_orders_x
+avg_order_hour_x
+std_order_hour_x
+preferred_time_of_day_x
+time_afternoon
+time_evening
+time_morning
+time_night
+top_category_y
+unique_categories_y
+weekend_order_ratio_y
+total_weekend_orders_y
+avg_order_hour_y
+std_order_hour_y
+preferred_time_of_day_y
+unique_categories
+weekend_order_ratio
+total_weekend_orders
+avg_order_hour
+std_order_hour
+time_afternoon
+time_evening
+time_morning
+time_night

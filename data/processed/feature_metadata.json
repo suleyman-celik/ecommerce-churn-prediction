@@ -1,0 +1,30 @@
+{
+  "total_features": 55,
+  "total_customers": 96478,
+  "churn_rate": 0.5982089180953171,
+  "feature_categories": {
+    "RFM": 3,
+    "Temporal": 2,
+    "Order Value": 4,
+    "Payment": 4,
+    "Review": 3,
+    "Product": 2,
+    "Delivery": 2,
+    "Segment": 8,
+    "Time": 23
+  },
+  "excluded_columns": [
+    "customer_id",
+    "first_order",
+    "last_order",
+    "is_churned",
+    "preferred_payment_type",
+    "segment",
+    "top_category",
+    "preferred_time_of_day",
+    "r_score",
+    "f_score",
+    "m_score"
+  ],
+  "date_created": "2026-01-22 18:45:50.598063"
+}
