@@ -1,0 +1,38 @@
+{
+  "original_feature_count": 51,
+  "selected_feature_count": 22,
+  "removed_feature_count": 29,
+  "reduction_percentage": 56.86,
+  "selection_criteria": {
+    "variance_threshold": 0.01,
+    "correlation_threshold": 0.85,
+    "importance_threshold": 5.948036021124609e-06
+  },
+  "removal_breakdown": {
+    "low_variance": 0,
+    "high_correlation": 20,
+    "low_importance": 10,
+    "business_logic": 1
+  },
+  "category_distribution": {
+    "Segment": 8,
+    "Time": 5,
+    "Payment": 3,
+    "RFM": 2,
+    "Product": 2,
+    "Review": 1,
+    "Delivery": 1
+  },
+  "top_10_features": [
+    "recency",
+    "segment_Champions",
+    "segment_Potential Loyalists",
+    "segment_At Risk",
+    "segment_Need Attention",
+    "segment_Others",
+    "segment_Promising",
+    "segment_Lost",
+    "segment_Loyal Customers",
+    "avg_delivery_time"
+  ]
+}

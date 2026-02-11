@@ -1,0 +1,40 @@
+# REMOVED FEATURES AND REASONS
+
+## Low Variance Features
+
+## High Correlation Features
+avg_order_value
+min_order_value
+max_order_value
+payment_credit_card
+min_review_score
+max_review_score
+max_delivery_time
+total_weekend_orders_x
+unique_categories_y
+weekend_order_ratio_y
+total_weekend_orders_y
+avg_order_hour_y
+unique_categories
+weekend_order_ratio
+total_weekend_orders
+avg_order_hour
+time_afternoon.1
+time_evening.1
+time_morning.1
+time_night.1
+
+## Low Importance Features
+total_weekend_orders_y
+weekend_order_ratio_y
+payment_voucher
+std_order_hour
+avg_days_between_orders
+std_order_hour_x
+std_order_value
+customer_lifetime_days
+frequency
+std_order_hour_y
+
+## Business Logic Removals
+time_morning
