@@ -1,0 +1,13 @@
+monetary
+avg_installments
+payment_boleto
+payment_debit_card
+avg_review_score
+unique_products_purchased
+avg_delivery_time
+unique_categories_x
+weekend_order_ratio_x
+avg_order_hour_x
+time_afternoon
+time_evening
+time_night

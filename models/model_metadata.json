@@ -1,0 +1,52 @@
+{
+  "model_info": {
+    "model_type": "XGBoost",
+    "version": "1.0.0",
+    "training_date": "2026-02-12 13:33:30",
+    "sklearn_version": "1.3.2",
+    "xgboost_version": "2.0.3"
+  },
+  "data_info": {
+    "total_samples": 96478,
+    "train_samples": 77182,
+    "test_samples": 19296,
+    "num_features": 22,
+    "churn_rate": 0.5982089180953171
+  },
+  "performance_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0
+  },
+  "threshold_info": {
+    "default_threshold": 0.5,
+    "optimal_threshold": 0.3500000000000001,
+    "optimal_f1_score": 1.0
+  },
+  "features": [
+    "recency",
+    "monetary",
+    "avg_installments",
+    "payment_boleto",
+    "payment_debit_card",
+    "avg_review_score",
+    "unique_products_purchased",
+    "avg_delivery_time",
+    "segment_At Risk",
+    "segment_Champions",
+    "segment_Lost",
+    "segment_Loyal Customers",
+    "segment_Need Attention",
+    "segment_Others",
+    "segment_Potential Loyalists",
+    "segment_Promising",
+    "unique_categories_x",
+    "weekend_order_ratio_x",
+    "avg_order_hour_x",
+    "time_afternoon",
+    "time_evening",
+    "time_night"
+  ]
+}

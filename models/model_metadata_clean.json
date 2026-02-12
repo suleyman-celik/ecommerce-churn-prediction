@@ -1,0 +1,60 @@
+{
+  "model_info": {
+    "model_type": "XGBoost",
+    "version": "2.0.0_CLEAN",
+    "training_date": "2026-02-12 13:33:13",
+    "data_leakage_fixed": true,
+    "removed_features": [
+      "recency",
+      "segment_At Risk",
+      "segment_Champions",
+      "segment_Lost",
+      "segment_Loyal Customers",
+      "segment_Need Attention",
+      "segment_Others",
+      "segment_Potential Loyalists",
+      "segment_Promising"
+    ]
+  },
+  "data_info": {
+    "total_samples": 96478,
+    "train_samples": 77182,
+    "test_samples": 19296,
+    "num_features": 13,
+    "churn_rate": 0.5982089180953171
+  },
+  "performance_metrics": {
+    "accuracy": 0.6135468490878938,
+    "precision": 0.6916150815981992,
+    "recall": 0.6388287273672355,
+    "f1_score": 0.6641747354199504,
+    "roc_auc": 0.6446398265944714
+  },
+  "features": [
+    "monetary",
+    "avg_installments",
+    "payment_boleto",
+    "payment_debit_card",
+    "avg_review_score",
+    "unique_products_purchased",
+    "avg_delivery_time",
+    "unique_categories_x",
+    "weekend_order_ratio_x",
+    "avg_order_hour_x",
+    "time_afternoon",
+    "time_evening",
+    "time_night"
+  ],
+  "top_10_features": [
+    "avg_delivery_time",
+    "payment_debit_card",
+    "unique_categories_x",
+    "monetary",
+    "avg_installments",
+    "time_night",
+    "payment_boleto",
+    "unique_products_purchased",
+    "avg_review_score",
+    "avg_order_hour_x"
+  ]
+}
